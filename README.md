@@ -62,7 +62,7 @@ derating mode, RSSI, meter active power, and meter communication status.
 ### HACS (recommended)
 
 1. In HACS → **Integrations**, open the ⋮ menu → **Custom repositories**.
-2. Add `https://github.com/kleist/ha-goodwe-dt` with category **Integration**.
+2. Add `https://github.com/afewyards/ha-goodwe-dt` with category **Integration**.
 3. Search for **GoodWe DT Inverter**, install it, and **restart Home Assistant**.
 
 ### Manual
@@ -86,7 +86,7 @@ directory (so you end up with `config/custom_components/goodwe/`), then restart.
 ## Contributing
 
 Issues and pull requests are welcome:
-<https://github.com/kleist/ha-goodwe-dt/issues>
+<https://github.com/afewyards/ha-goodwe-dt/issues>
 
 ## License
 
