@@ -114,7 +114,7 @@ D-NS), 76–77, 80–81, 86–87, 100–123, 134–143.
 | `ppv2` | `round(vpv2 * ipv2)` |
 | `ppv` | sum of present `ppvN` |
 | `pgrid1` | `round(vgrid1 * igrid1)` (similarly pgrid2/3) |
-| `house_consumption` | `abs(ppv - meter_active_power)` |
+| `house_consumption` | `abs(total_inverter_power - meter_active_power)` |
 
 ## Anomalies / gotchas (must handle in re-derivation)
 

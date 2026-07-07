@@ -133,7 +133,7 @@ CALCULATED_SENSORS: tuple = (
     ),
     Calculated(
         "house_consumption",
-        lambda d: abs(d.get("ppv", 0) - d.get("meter_active_power", 0)),
+        lambda d: abs(d.get("total_inverter_power", 0) - d.get("meter_active_power", 0)),
         "House Consumption",
         "W",
         SensorKind.AC,
