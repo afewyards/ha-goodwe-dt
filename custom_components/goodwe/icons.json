@@ -1,0 +1,7 @@
+{
+  "entity": {
+    "sensor": {
+      "ppv": { "default": "mdi:solar-power" }
+    }
+  }
+}

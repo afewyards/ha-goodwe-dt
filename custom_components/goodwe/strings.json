@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "GoodWe DT Inverter",
+        "description": "Enter the IP address of your GoodWe DT inverter (UDP).",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the inverter.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This inverter is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": { "host": "Host", "port": "Port", "scan_interval": "Scan interval (seconds)" }
+      }
+    }
+  },
+  "entity": {
+    "number": {
+      "grid_export_limit": { "name": "Grid export limit" }
+    }
+  }
+}
