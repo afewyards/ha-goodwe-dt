@@ -9,5 +9,5 @@
   "issue_tracker": "https://github.com/afewyards/ha-goodwe-dt/issues",
   "loggers": ["custom_components.goodwe"],
   "requirements": [],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
